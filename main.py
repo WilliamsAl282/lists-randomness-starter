@@ -58,9 +58,9 @@ fruits = ['apple','banana','cherry','orange','strawberry']
 num_fruits = len(fruits)
 print(f' The number of fruits in this list are {num_fruits}')
 
-random_fruit = random.randint(num_fruits)
+random_fruit = random.randint(0,4)
 
-print(random_fruit)
+print(f'The random fruit that has been chosen is {fruits[random_fruit]}')
 
 
 
