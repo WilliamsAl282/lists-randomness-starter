@@ -58,7 +58,7 @@ fruits = ['apple','banana','cherry','orange','strawberry']
 num_fruits = len(fruits)
 print(f' The number of fruits in this list are {num_fruits}')
 
-random_fruit = random.randint(num_fruits,0)
+random_fruit = random.randint(num_fruits)
 
 print(random_fruit)
 
